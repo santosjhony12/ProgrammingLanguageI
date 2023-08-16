@@ -14,17 +14,17 @@ public class Soma {
     public static void main(String[] args) {
         /*INSTANCIA DO OBJETO*/
         Soma resultado = new Soma();
+        Soma result2 = new Soma();
 
         /*DECLARAÇÃO DE VARIAVEIS*/
         int a;
         int b;
         a = 5;
-        b = 6;
+        b = 10;
         int soma = a+b;
         System.out.println("A soma de A e B INTEIROS é: "+soma);
-        resultado.somarComplexo(1,4,8,6);
-        System.out.println("A soma dos números reais é: "+resultado.somarReal(11.1,88.9));
-
+        System.out.println("A soma dos números reais é: "+resultado.somarReal(2.5,3.5));
+        result2.somarComplexo(5,2,7,-3);
     }
 
 }
