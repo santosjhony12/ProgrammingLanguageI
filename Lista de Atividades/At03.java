@@ -1,6 +1,5 @@
 public class At03 {
     public static void main(String[] args){
-
         System.out.println("EXERCICIO A:");
         exA();
 
@@ -9,6 +8,7 @@ public class At03 {
 
         System.out.println("\n\nEXERCICIO C:");
         exC();
+
 
     }
 
