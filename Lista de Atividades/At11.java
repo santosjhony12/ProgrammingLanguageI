@@ -16,7 +16,7 @@ public class At11{
         System.out.println("Entre com o valor que recebe por cada carro vendido: ");
         double valorRecebido = scanner.nextDouble();
 
-        System.out.println("O valor do salário atual será: "+calcularSalarioFinal(salarioFixo, numeroCarros, valorTotalVendas, valorRecebido));
+        System.out.println("O valor do salário final será: "+calcularSalarioFinal(salarioFixo, numeroCarros, valorTotalVendas, valorRecebido));
     }
     public static double calcularSalarioFinal(double salarioFixo, int numeroCarros, double valorTotalVendas, double valorRecebidoPorCarro){
         return (salarioFixo+(valorRecebidoPorCarro*numeroCarros)+(valorTotalVendas*0.05));

@@ -5,7 +5,8 @@ public class At05 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Entre com um número: ");
         int valor = scanner.nextInt();
-        System.out.println("O seu antecessor é: "+(valor-1));
+        int antecessor = valor-1;
+        System.out.println("O seu antecessor é: "+antecessor);
     }
 }
 

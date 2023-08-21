@@ -27,7 +27,7 @@ public class At02 {
 
     }
     public static void exA(){
-        int a = 5;
+        int a = 10;
         int b= 20;
         System.out.println("B = "+b);
         b = 5;
