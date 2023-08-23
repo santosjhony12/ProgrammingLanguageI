@@ -15,4 +15,5 @@ public class At09 {
     public static double novoSalario(double salario, double aumento){
         return (salario+(salario*(aumento/100)));
     }
+
 }

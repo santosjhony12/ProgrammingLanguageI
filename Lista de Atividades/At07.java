@@ -16,6 +16,6 @@ public class At07 {
         return (meses*12);
     }
     public static int dias(int dias){
-        return (dias*3650);
+        return (dias*365);
     }
 }
