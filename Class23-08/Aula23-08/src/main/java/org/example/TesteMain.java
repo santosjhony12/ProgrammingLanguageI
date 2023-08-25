@@ -27,6 +27,24 @@ public class TesteMain {
         livro1.emprestar();
         livro1.devolver();
         tracejado();
+
+        Aluno aluno = new Aluno("Jhony Santos", 18, 0);
+        aluno.visualizarDetalhes();
+        aluno.atribuirNota(4);
+        aluno.verificarAprovacao();
+        System.out.println("Atribuindo 2 na nota...");
+        aluno.atribuirNota(2);
+        aluno.verificarAprovacao();
+        tracejado();
+
+        LojaOnline lojaOnline = new LojaOnline("Mercado Livre", 2987, true);
+        System.out.println("Loja Aberta? "+lojaOnline.isAberta());
+        System.out.println("Loja "+lojaOnline.getNome());
+        System.out.println("Quantidade de produtos: "+lojaOnline.getNumeroProdutos());
+        System.out.println("Adicionando produto...");
+        lojaOnline.adicionarProduto();
+
+
     }
     public static void tracejado(){
         System.out.println("\n=============================\n");

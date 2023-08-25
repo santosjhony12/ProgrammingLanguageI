@@ -49,5 +49,9 @@ public class Produto {
             System.out.println("Estoque insuficiente para a venda.");
         }
     }
+    public void devolucao(int quantidade){
+        this.estoque+=quantidade;
+        System.out.println("Estoque atualizado.\nQuantidade do produto em estoque: "+this.estoque);
+    }
 }
 
