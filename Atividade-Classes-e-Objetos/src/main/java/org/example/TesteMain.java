@@ -51,8 +51,34 @@ public class TesteMain {
         computador.ligar();
         System.out.println("\n");
         computador.exibirStatus();
+        tracejado();
 
+        Telefone telefone = new Telefone("Unify", "RFA", "128596545");
+        telefone.ligar();
+        telefone.fazerChamada("12996076401");
+        telefone.desligar();
+        tracejado();
 
+        Cadeira cadeira = new Cadeira("Madeira", "Marrom", 4);
+        System.out.println("A cadeira é reclinável? "+cadeira.isReclinavel());
+        cadeira.empurrar();
+        cadeira.levantar();
+        cadeira.reclinar();
+        tracejado();
+
+        Porta portaSala = new Porta("Madeira", "Marrom");
+        Interruptor interruptorSala = new Interruptor("Sala", 1);
+
+        portaSala.abrir();
+        portaSala.trancar();
+        interruptorSala.ligar();
+        interruptorSala.verificarStatus();
+        interruptorSala.desligar();
+        interruptorSala.verificarStatus();
+        portaSala.destrancar();
+        portaSala.abrir();
+        interruptorSala.alternar();
+        interruptorSala.verificarStatus();
     }
     public static void tracejado(){
         System.out.println("\n=============================\n");
