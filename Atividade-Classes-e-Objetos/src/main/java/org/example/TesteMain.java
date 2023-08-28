@@ -43,6 +43,14 @@ public class TesteMain {
         System.out.println("Quantidade de produtos: "+lojaOnline.getNumeroProdutos());
         System.out.println("Adicionando produto...");
         lojaOnline.adicionarProduto();
+        tracejado();
+
+        Computador computador = new Computador("Samsung", "Galaxy Book2", 5200, false);
+        computador.exibirStatus();
+        System.out.println("\n");
+        computador.ligar();
+        System.out.println("\n");
+        computador.exibirStatus();
 
 
     }
