@@ -1,3 +1,0 @@
-10 classes 
-cada uma 3 atributos e 3 metodos
-com construtor e metodo de acesso
