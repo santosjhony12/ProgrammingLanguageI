@@ -1,3 +1,4 @@
+package Vetores;
 import java.util.Scanner;
 public class Atv84 {
     public static void main(String[] args) {
