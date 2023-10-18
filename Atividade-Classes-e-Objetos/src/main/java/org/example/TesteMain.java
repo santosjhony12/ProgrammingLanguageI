@@ -1,6 +1,9 @@
 public class TesteMain {
     public static void main(String[] args){
+<<<<<<< HEAD
       
+=======
+>>>>>>> 405a7e32ae235668083d78d801cfe11fb1f7cd1a
         tracejado();
         ContaBancaria contaBancaria = new ContaBancaria("Jhony Santos de Souza", 144.89, "Corrente");
         System.out.println("Titular: "+contaBancaria.getTitular());
