@@ -1,5 +1,3 @@
-package org.example;
-
 public class TesteCarro {
     public static void main(String[] args){
         /*INSTANCIA DO OBJETO COM CONSTRUTOR DEFINIDO*/

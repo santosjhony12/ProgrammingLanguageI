@@ -15,14 +15,14 @@ public class Atv77 {
         v.add(3);
         v.add(6);
         
-        for (int i = 8; i >= 5; i--) {
+        for (int i = 7; i >= 4; i--) {
             int aux = v.get(i);
-            v.set(i, v.get(8 - i + 1));
-            v.set(8 - i + 1, aux);
+            v.set(i, v.get(7 - i + 1));
+            v.set(7 - i + 1, aux);
         }
         
-        v.set(3, v.get(1));
-        v.set(v.get(3), v.get(v.get(2)));
+        v.set(2, v.get(0));
+        v.set(v.get(2), v.get(v.get(1)));
         
         for (int i = 0; i < v.size(); i++) {
             System.out.print(v.get(i) + " ");

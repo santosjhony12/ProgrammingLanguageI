@@ -1,5 +1,3 @@
-package org.example;
-
 public class Telefone {
     private String marca;
     private String modelo;

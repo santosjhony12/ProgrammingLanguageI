@@ -1,5 +1,3 @@
-package org.example;
-
 public class LojaOnline {
     private String nome;
     private int numeroProdutos;

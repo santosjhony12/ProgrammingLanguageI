@@ -1,5 +1,3 @@
-package org.example;
-
 public class Porta {
     private String material;
     private String cor;

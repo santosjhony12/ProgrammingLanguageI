@@ -1,8 +1,6 @@
-package org.example;
-
 public class TesteMain {
     public static void main(String[] args){
-        /*
+      
         tracejado();
         ContaBancaria contaBancaria = new ContaBancaria("Jhony Santos de Souza", 144.89, "Corrente");
         System.out.println("Titular: "+contaBancaria.getTitular());
@@ -51,7 +49,7 @@ public class TesteMain {
         System.out.println("\n");
         computador.ligar();
         System.out.println("\n");
-        computador.exibirStatus();*/
+        computador.exibirStatus();
         tracejado();
 
         Telefone telefone = new Telefone("Unify", "RFA", "128596545");
@@ -59,7 +57,7 @@ public class TesteMain {
         telefone.fazerChamada("12996076401");
         telefone.desligar();
         tracejado();
-/*
+
         Cadeira cadeira = new Cadeira("Madeira", "Marrom", 4);
         System.out.println("A cadeira é reclinável? "+cadeira.isReclinavel());
         cadeira.empurrar();
@@ -79,7 +77,7 @@ public class TesteMain {
         portaSala.destrancar();
         portaSala.abrir();
         interruptorSala.alternar();
-        interruptorSala.verificarStatus();*/
+        interruptorSala.verificarStatus();
     }
     public static void tracejado(){
         System.out.println("\n=============================\n");
