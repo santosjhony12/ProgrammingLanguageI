@@ -1,3 +1,3 @@
-# Linguagem de Programação I 👨‍💻
+# Programming Language I 👨‍💻
 
-> Repositório criado para armazenar os conteúdos praticos e teóricos da disciplina de Linguagem de Programação I da Faculdade de Tecnologia em Banco de Dados - FATEC de São José dos Campos
+> Repository created to store the practical and theoretical contents of the Programming Language I discipline at the Faculty of Database Technology - FATEC of São José dos Campos
